@@ -559,6 +559,11 @@ button[type='submit'] {
   gap: 20px;
 }
 
+.HotelRecommendations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 
 .AboutPage-container {
   max-width: 960px;

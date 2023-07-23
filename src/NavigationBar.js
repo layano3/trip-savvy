@@ -35,7 +35,6 @@ const NavigationBar = ({ handleSearch, itineraryItems }) => {
           </Link>
         </li>
         <li className="nav-item">
-          {/* Pass itineraryItems as a prop to the ItineraryPage */}
           <Link to="/trip-savvy/itinerary" itineraryItems={itineraryItems}>
             {language === 'en' ? 'Itinerary' : 'Itinerary'}
           </Link>
@@ -63,7 +62,7 @@ const NavigationBar = ({ handleSearch, itineraryItems }) => {
       <div className="search-field">
         <input
           type="text"
-          placeholder="Search"
+          placeholder="Search for destination"
           value={searchQuery}
           onChange={handleSearchChange}
         />

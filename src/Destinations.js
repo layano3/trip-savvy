@@ -76,12 +76,12 @@ const [cards, setCards] = useState([
   {
     title: 'Eiffel Tower',
     text: 'Discover the rich history and cultural treasures that make Paris an unforgettable destination',
-    isExpanded: false,
+    isExpanded: true,
     additionalInfo: 'Additional information for Card-1.',
     image: img1,
     isAdded: false,
     location: 'France',
-    attractionType: 'Museum',
+    attractionType: 'Historical site',
     budgetRange: 'Budget-Friendly',
     rating: '3-star',
     climate: 'Temperate',
@@ -89,7 +89,7 @@ const [cards, setCards] = useState([
   {
     title: 'Sensoji temple',
     text: 'Immerse yourself in the vibrant energy of Tokyo, the bustling metropolis where tradition meets modernity',
-    isExpanded: false,
+    isExpanded: true,
     additionalInfo: 'Additional information for Card-2.',
     image: img5,
     isAdded: false,
@@ -102,7 +102,7 @@ const [cards, setCards] = useState([
   {
     title: 'The Colosseum',
     text: 'Step back in time and wander through the eternal city of Rome, where history comes alive at every corner',
-    isExpanded: false,
+    isExpanded: true,
     additionalInfo: 'Additional information for Card-3.',
     image: img2,
     isAdded: false,
@@ -115,12 +115,12 @@ const [cards, setCards] = useState([
   {
     title: 'Burj Khalifa',
     text: 'Be captivated by its modern skyline adorned with iconic skyscrapers',
-    isExpanded: false,
+    isExpanded: true,
     additionalInfo: 'Additional information for Card-4.',
     image: img6,
     isAdded: false,
     location: 'UAE',
-    attractionType: 'Museum',
+    attractionType: 'Historical site',
     budgetRange: 'Luxury',
     rating: '3-star',
     climate: 'Temperate',
@@ -128,7 +128,7 @@ const [cards, setCards] = useState([
   {
     title: 'Campo deFiori',
     text: 'For a glimpse of Roman day-to-day life, it has to be the vibrancy of Campo deFiori',
-    isExpanded: false,
+    isExpanded: true,
     additionalInfo: 'Additional information for Card-4.',
     image: img7,
     isAdded: false,
@@ -141,7 +141,7 @@ const [cards, setCards] = useState([
   {
     title: 'Pizzeria Gino Sorbillo',
     text: 'Roll out of the 17th-century church in Naples and into this cult eatery worshiped by local pizza aficionados',
-    isExpanded: false,
+    isExpanded: true,
     additionalInfo: 'Additional information for Card-4.',
     image: img8,
     isAdded: false,
@@ -154,7 +154,7 @@ const [cards, setCards] = useState([
   {
     title: 'Aquaventure Waterpark',
     text: 'Experience the most thrilling, record-breaking water rides',
-    isExpanded: false,
+    isExpanded: true,
     additionalInfo: 'Additional information for Card-4.',
     image: img9,
     isAdded: false,
@@ -167,7 +167,7 @@ const [cards, setCards] = useState([
   {
     title: 'Louvre Museum',
     text: 'Home to some of the most canonical works of Western art, including the Mona Lisa and the Venus de Milo',
-    isExpanded: false,
+    isExpanded: true,
     additionalInfo: 'Additional information for Card-4.',
     image: img10,
     isAdded: false,
@@ -180,7 +180,7 @@ const [cards, setCards] = useState([
   {
     title: 'Atlantis The Palm',
     text: 'Atlantis, The Palm is a 1,544-room ocean-themed destination resort',
-    isExpanded: false,
+    isExpanded: true,
     additionalInfo: 'Additional information for Card-4.',
     image: img11,
     isAdded: false,
@@ -193,7 +193,7 @@ const [cards, setCards] = useState([
   {
     title: 'Nishitetsu Resort Inn Beppu',
     text: 'This straightforward hot spring hotel in a redbrick building is 2 minutes away by foot from the observation deck of Beppu Tower',
-    isExpanded: false,
+    isExpanded: true,
     additionalInfo: 'Additional information for Card-4.',
     image: img12,
     isAdded: false,
